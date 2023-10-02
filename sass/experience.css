@@ -1,0 +1,76 @@
+.experience__card-text, .experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience__title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #000000;
+  text-align: center;
+}
+
+.experience__card-title {
+  font-weight: 400;
+  font-size: 22px;
+  color: #000000;
+}
+
+.experience {
+  width: 100%;
+  min-height: 110vh;
+  background: url("../images/experience-bg.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-between;
+  padding: 111px 0px 111px 111px;
+  position: relative;
+}
+
+.experience__title {
+  max-width: 340px;
+}
+
+.experience__card {
+  align-self: flex-end;
+  max-width: 1300px;
+  width: 100%;
+  padding: 60px;
+  justify-content: start;
+  gap: 50px;
+  background-color: #fff;
+}
+
+.experience__card-icon {
+  max-width: 100px;
+}
+.experience__card-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.experience__card-text {
+  align-items: flex-start;
+  gap: 17px;
+}
+
+.experience__card-title {
+  max-width: 486px;
+  font-weight: 700;
+}
+
+.experience__card-subtitle {
+  font-size: 18px;
+}
+.experience__card-subtitle .experience__bold {
+  font-weight: 700;
+}/*# sourceMappingURL=experience.css.map */

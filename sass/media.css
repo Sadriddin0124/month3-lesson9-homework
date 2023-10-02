@@ -1,0 +1,134 @@
+@media (max-width: 1265px) {
+  .card7 {
+    display: none;
+  }
+}
+@media (max-width: 1200px) and (min-width: 990px) {
+  .contact {
+    padding: 80px;
+  }
+  .footer__items {
+    width: 90%;
+  }
+}
+@media (max-width: 1140px) {
+  .card6 {
+    display: none;
+  }
+}
+@media (max-width: 950px) {
+  .card5 {
+    display: none;
+  }
+}
+@media (max-width: 989px) and (min-width: 769px) {
+  .navbar__items2-list {
+    padding: 10px;
+  }
+  .colleges__card-square {
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+  }
+  .colleges__card-text {
+    font-size: 14px;
+  }
+  .colleges__card-icons {
+    width: 200px;
+    height: 100px;
+  }
+  .contact {
+    padding: 70px;
+  }
+}
+@media (max-width: 760px) {
+  .card4 {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .navbar__items1, .navbar__items2 {
+    padding: 15px;
+  }
+  .navbar__items2-list {
+    display: none;
+  }
+  .bars div {
+    display: block;
+  }
+  .career {
+    padding: 100px 30px;
+  }
+  .colleges__card-square {
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+  }
+  .colleges__card-text {
+    font-size: 14px;
+  }
+  .colleges__card-icons {
+    width: 200px;
+    height: 100px;
+  }
+  .colleges__card {
+    padding: 20px;
+    align-items: flex-end;
+  }
+  .colleges {
+    padding: 20px;
+  }
+  .jobs {
+    padding: 40px 10px;
+  }
+  .jobs__cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .experience {
+    padding: 60px 0 20px 80px;
+  }
+  .experience__card {
+    padding: 20px;
+  }
+  .experience__card-title {
+    font-size: 16px;
+  }
+  .experience__card-subtitle {
+    font-size: 12px;
+  }
+  .contact {
+    padding: 30px;
+  }
+  .contact__forms {
+    flex-direction: column;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+  .handshakes {
+    padding: 50px 10px;
+  }
+  .handshakes__cards {
+    justify-content: center;
+  }
+}
+@media (max-width: 570px) {
+  .card3 {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .card2 {
+    display: none;
+  }
+}
+@media (max-width: 446px) {
+  .footer__line, .footer__line-links {
+    text-align: center;
+  }
+}/*# sourceMappingURL=media.css.map */

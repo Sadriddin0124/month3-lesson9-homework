@@ -1,0 +1,49 @@
+.career {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.career__btn {
+  background-color: #190083;
+  padding: 13px 26px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.career__title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #000000;
+  text-align: center;
+}
+
+.career__subtitle {
+  font-weight: 400;
+  font-size: 22px;
+  color: #000000;
+}
+
+.career {
+  padding: 120px;
+  width: 100%;
+  min-height: 80vh;
+  background-color: #F3E02B;
+  justify-content: space-between;
+}
+
+.career__title {
+  max-width: 442px;
+}
+
+.career__subtitle {
+  max-width: 650px;
+  text-align: center;
+}
+
+.career__btn {
+  margin-top: 40px;
+}/*# sourceMappingURL=cereer.css.map */

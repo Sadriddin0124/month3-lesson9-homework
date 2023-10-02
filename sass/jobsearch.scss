@@ -1,0 +1,124 @@
+%flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%btn-global {
+    background-color: #190083;
+    padding: 13px 26px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+%titles {
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+}
+
+%subtitles {
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+
+.jobsearch {
+    position: relative;
+    width: 100%;
+    min-height: 180vh;
+    padding: 60px;
+    @extend %flex-column;
+    gap: 35px;
+    background-color: #EBEEF3
+}
+
+.jobsearch__title {
+    @extend %titles;
+}
+
+.jobsearch__subtitle {
+    @extend %subtitles;
+    max-width: 550px;
+    text-align: center;
+}
+
+.jobsearch__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 41px;
+    margin-top: 100px;
+}
+
+.jobsearch__images-store1 {
+    height: 55px;
+    width: 187px;
+    border-radius: 5px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.jobsearch__images-store2 {
+    height: 55px;
+    width: 210px;
+    border-radius: 5px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.jobsearch__images-phone {
+    max-width: 930px;
+    max-height: 500px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.contact {
+    // position: relative;
+    // top: -300px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #0F1035;
+    @extend %flex-column;
+    gap: 40px;
+    padding: 120px;
+}
+
+.contact__title {
+    @extend %titles;
+    max-width: 420px;
+    color: #fff;
+}
+
+.contact__subtitle {
+    @extend %subtitles;
+    color: #fff;
+}
+
+.contact__forms {
+    @extend %flex-center;
+    gap: 32px;
+}
+
+.contact__btn {
+    @extend %btn-global;
+    background-color: #FF1100;
+}

@@ -1,0 +1,78 @@
+%flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%btn-global {
+    background-color: #190083;
+    padding: 13px 26px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+%titles {
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+}
+
+%subtitles {
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+
+
+.jobs {
+    width: 100%;
+    min-height: 100vh;
+    @extend %flex-column;
+    gap: 50px;
+}
+
+.jobs__title {
+    max-width: 400px;
+    @extend %titles;
+}
+
+.jobs__subtitle {
+    @extend %subtitles;
+}
+
+.jobs__cards {
+    max-width: 1320px;
+    width: 100%;
+    @extend %flex-center;
+    justify-content: space-around;
+}
+
+.jobs__card {
+    width: 220px;
+    text-align: center;
+    @extend %flex-column;
+    gap: 20px;
+}
+
+.jobs__card-img {
+    width: 90px;
+    height: 90px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.jobs__btn {
+    @extend %btn-global;
+}

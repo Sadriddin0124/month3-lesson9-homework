@@ -1,0 +1,66 @@
+.colleges__card-square, .colleges {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.colleges__title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #000000;
+  text-align: center;
+}
+
+.colleges__card-text {
+  font-weight: 400;
+  font-size: 22px;
+  color: #000000;
+}
+
+.colleges {
+  padding: 111px;
+  width: 100%;
+  min-height: 120vh;
+  gap: 100px;
+}
+
+.colleges__title {
+  max-width: 460px;
+}
+
+.colleges__card {
+  max-width: 1280px;
+  width: 100%;
+  height: 640px;
+  background: url("../images/colleges-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+.colleges__card-square {
+  width: 500px;
+  height: 474px;
+  background-color: #fff;
+  padding: 70px;
+  gap: 60px;
+}
+
+.colleges__card-text {
+  max-width: 360px;
+  text-align: center;
+}
+
+.colleges__card-icons {
+  width: 323px;
+  height: 178px;
+}
+.colleges__card-icons img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=colleges.css.map */

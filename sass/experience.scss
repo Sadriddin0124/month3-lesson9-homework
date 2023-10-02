@@ -1,0 +1,90 @@
+%flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%btn-global {
+    background-color: #190083;
+    padding: 13px 26px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+%titles {
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+}
+
+%subtitles {
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+
+.experience {
+    width: 100%;
+    min-height: 110vh;
+    background: url('../images/experience-bg.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @extend %flex-column;
+    justify-content: space-between;
+    padding: 111px 0px 111px 111px;
+    position: relative;
+}
+
+.experience__title {
+    @extend %titles;
+    max-width: 340px;
+}
+
+.experience__card {
+    align-self: flex-end;
+    max-width: 1300px;
+    width: 100%;
+    padding: 60px;
+    @extend %flex-center;
+    justify-content: start;
+    gap: 50px;
+    background-color: #fff;
+}
+
+.experience__card-icon {
+    max-width: 100px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.experience__card-text {
+    @extend %flex-column;
+    align-items: flex-start;
+    gap: 17px;
+}
+
+.experience__card-title {
+    max-width: 486px;
+    @extend %subtitles;
+    font-weight: 700;
+}
+
+.experience__card-subtitle {
+    font-size: 18px;
+    .experience__bold {
+        font-weight: 700;
+    }
+}
